@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTiOMvM08bYa5SviH4lkS-MMvQzgu7yV0-UMz5RP0EJ8om8QZzT2A" class="img-rounded">
+	<form id="userDataForm">
+		<fieldset>
+			<legend>Please add your login information</legend>
+			<label>Full Name</label>		
+			<input id="name" type="text" placeholder="e.g. Elon Musk"/>
+		</fieldset>
+		<form class="form-inline">
+			<input type="text" class="input-small" placeholder="Email" />
+			<input type="password" maxlength="10" class="input-small" placeholder="Password" />
+			<!-- <input type="reset" /> !-->
+			<label class="checkbox">
+			<input type="checkbox"> Remember me
+			</label>
+			<span class="help-block">Your email is your primary identifier</span>
+			<fieldset>
+			<button type="submit" class="btn">Sign in</button>
+			<legend>Add your Social Networks</legend>
+			<label>Linkedin</label>		
+			<input id="name" type="text" placeholder="e.g. www.linkedin.com/in/jackdorseysquare"/>
+			</fieldset>
+			<textarea rows="3"></textarea>
+			<input type="file" multiple name ="uploads" placeholder="e.g. attach Resume docs" />
+	
+
+		<legend>Add your school</legend>
+		<div class="education_block">
+			<label>College</label>
+			<input type="text" placeholder="e.g. UCLA" />
+			<label>Degree</label>
+			<input type="text" placeholder="e.g. Sociology" />
+			<label>GPA</label>
+			<input type="text" placeholder="e.g 4.0" />
+			<label>Graduate School</label>
+			<input type="text" placeholder="e.g. Stanford" />
+			<label>Degree</label>
+			<input type="text" placeholder="e.g. MBA" />
+			<label>GPA</label>
+			<input type="text" placeholder="e.g. 4.0" />
+			<label>Graduate School</label> 
+		</div>
+		<span class="help-block">
+			<a href="#" class="education_block_add">
+				add another school
+			</a>
+		</span>	
+
+		<input type="radio" />
+		<input type="checkbox" checked /> 
+
+
+		<legend>Add your Experience</legend>
+		<div class="experience_block">
+			<label>Company</label>
+			<input type="text" placeholder="e.g. Boeing" />
+			<label>Position</label>
+			<input type="text" placeholder="e.g. Engineer" />
+			<label>Company</label>
+			<input type="text" placeholder="e.g. Google" />
+			<label>Position</label>
+			<input type="text" placeholder="e.g. Project Manager" />
+		</div>
+		<span class="help-block">
+			<a href="#" class="experience_block_add">
+				add another Company and Position
+			</a>
+		</span>
+
+		<legend>Add your Skills</legend>
+		<div class="skills_block">
+			<label>Title</label>
+			<input type="text" placeholder="e.g. " />
+			<label>Position</label>
+			<input type="text" placeholder="e.g. Engineer" />
+			<label>Company</label>
+			<input type="text" placeholder="e.g. Google" />
+			<label>Position</label>
+			<input type="text" placeholder="e.g. Project Manager" />
+		</div>
+		<span class="help-block">
+			<a href="#" class="experience_block_add">
+				add another Company and Position
+			</a>
+		</span>
+
+		<div class="form-actions">
+  		<button type="submit" class="btn btn-primary">Save changes</button>
+  		<button type="button" class="btn">Cancel</button>
+</div> 
+</body>
+</html>
